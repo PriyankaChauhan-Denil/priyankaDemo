@@ -19,12 +19,8 @@ public class p1 {
 		driver.findElement(By.id("userPassword")).sendKeys("Pdc12345");
 		driver.findElement(By.id("login")).click();
 		Thread.sleep(3000);
-Thread.sleep(3000);
-Thread.sleep(3000);
-Thread.sleep(3000);
-Thread.sleep(3000);
+		System.out.println("successfuly pulled!!");
 
-Thread.sleep(3000);
 	}
 
 }				
